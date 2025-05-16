@@ -1,4 +1,9 @@
 site_name: ZJU API Docs
+site_description: 浙江大学 API 文档
+
+repo_url: https://github.com/eWloYW8/ZJU-API-Docs
+repo_name: ZJU API Docs
+repo_type: github
 
 theme:
   name: material
