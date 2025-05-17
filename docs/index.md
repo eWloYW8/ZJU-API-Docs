@@ -1,17 +1,26 @@
-# Welcome to ZJU API Docs
+# ZJU API Docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+非官方的浙江大学 API 文档项目，收录了「学在浙大」「智云课堂」「统一身份认证」等平台的接口信息，旨在为二次开发、学习研究提供参考。
 
-## Commands
+**本项目中的 API 均为校内平台前端的公开接口，使用时与浏览器访问校内平台并无差异，不含任何内部 API 和提权漏洞**
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 项目网页
 
-## Project layout
+临时使用：[https://ewloyw8.github.io/ZJU-API-Docs/](https://ewloyw8.github.io/ZJU-API-Docs/)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 分类
+
+- [ ] 统一身份认证
+- [ ] WebVPN
+- [ ] 学在浙大
+- [ ] 智云课堂
+
+## 贡献
+
+> 待补充
+
+## 免责声明
+
+- ⚠️ 本项目为非官方文档，仅用于技术学习和二次开发参考。
+- 所收录 API 均来源于用户浏览器访问时自然生成的请求，不包含任何实际用户数据或凭证。
+- 请勿将该文档用于未经授权的数据抓取或商业用途。如有侵权，请联系删除。

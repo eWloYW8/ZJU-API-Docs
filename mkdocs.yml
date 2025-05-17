@@ -3,7 +3,6 @@ site_description: 浙江大学 API 文档
 
 repo_url: https://github.com/eWloYW8/ZJU-API-Docs
 repo_name: ZJU API Docs
-repo_type: github
 
 theme:
   name: material
@@ -32,8 +31,13 @@ theme:
 
 nav:
   - 首页: index.md
+  - 统一身份认证: zjuam/index.md
+  - WebVPN: webvpn/index.md
+  - 测试: test.md
 
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - admonition
   - codehilite
   - footnotes
@@ -44,3 +48,9 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.tabbed
 
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
