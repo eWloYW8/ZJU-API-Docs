@@ -30,7 +30,9 @@ theme:
     - content.action.edit
 
 nav:
-  - 首页: index.md
+  - 首页:
+    - 简介: index.md
+    - 贡献指南: home/contributing.md
   - 统一身份认证: zjuam/index.md
   - WebVPN: webvpn/index.md
   - 测试: test.md
@@ -47,6 +49,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight
   - pymdownx.tabbed
+  - pymdownx.details
 
 plugins:
   - search
@@ -54,3 +57,4 @@ plugins:
       minify_html: true
       minify_js: true
       minify_css: true
+  - macros
